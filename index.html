@@ -1,0 +1,820 @@
+ <html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	 
+    <style>
+           *{
+        margin:0;
+        padding:0;
+
+      }
+      #main{
+        width:100%;
+        height:4120px;
+        position:relative;
+        margin:0 auto;
+        
+      }
+
+      #header{
+        width:100%;
+        height:200px;
+        background:orange;
+
+
+
+      }
+      #header #nav1{
+        width:10%;
+        height:200px;
+         
+        float:left;
+
+
+
+
+      }
+      #header #nav1 img{
+        width:75%;
+        height:75%;
+        
+        margin-left:25px;
+        margin-top:25px;
+
+      }
+
+      #header #nav2{
+        width:90%;
+        height:135px;
+        background:orange;
+        float:right;
+        padding-top:15px;
+
+      }
+      #header #nav2 li{
+	       list-style:none;
+		
+
+	    }
+      #header #nav2 ul{
+        position:relative;
+        left:1298px;
+        top:-20px;
+        width:20px;
+      }
+      #header #nav2 ul li ul{
+        position:relative;
+        left:-30px;
+
+      }
+      #header #nav2 ul li img:hover{
+        transform:rotate(360deg);
+        transition:1s;
+      }
+      #header #nav2 ul li ul li{
+        display:none;
+      }
+      #header #nav2 ul li:hover ul li{
+        display:block;
+
+      }
+      #header #nav2 .nav21{
+        width:65px;
+        height:22px;
+        float:right;
+        background:#302f2f;
+        margin-top:-84px;
+        border:2px solid white;
+        padding:12px 20px;
+	    border-radius:4px;
+        margin-right:3px;
+      }
+
+      #header #nav2 .nav21 a:link,#header #nav2 .nav21 a:visited{
+        text-decoration:none;
+        color:white;
+        font-size:15px;
+        font-weight:bold;
+         display:block;
+        transition:2s;
+	   margin-top:1px;
+      }
+      #header #nav2 .nav21:hover{
+        background:black;
+        transition:1s;
+
+
+
+
+      }
+      #header #nav2  #nav211{
+          margin-left:1020px;
+          margin-top:-105px;
+
+
+      }
+      #header #nav2  #nav211 img{
+        width:48px;
+        height:48px;
+      }
+
+      #header #nav2 h1{
+        text-align:left;
+        font-family:cursive;
+        font-size:60px;
+        width:800px;
+        position:relative;
+        left:12px;
+      }
+      #header #nav2 h2{
+            position:relative;
+            top:0px;
+            left:11px;
+            width:150px;
+      }
+
+      #input_type{
+        width:552px;
+        height:49px;
+        position:relative;
+        left:147px;
+        font-size:18px;
+        font-family:courier;
+        border-radius:3px;
+        padding-left:5px;
+        top:-60px;
+      }
+      #input_type1{
+        width:300px;
+        height:49px;
+        position:relative;
+        left:162px;
+        font-family:courier;
+        font-weight:400;
+        border-radius:3px;
+        padding-left:5px;
+        top:-62px;
+      }
+      #bg1{
+        width:80%;
+        margin:0 auto;
+	   background:#ededed;
+      }
+      #navigation{
+        width:1150px;
+        height:40px;
+        margin-left:-200px;
+        font-weight:400;
+        font-family:-apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+        margin-top:-44px;
+        padding:0px;
+
+        float:left;
+        position:relative;
+        left:350px;
+        border-radius:4px;
+      }
+      #navigation ul{
+        list-style:none;
+        position:sticky;
+        top:0px;
+        z-index:1000;
+	  margin-top:-5px;
+      }
+      #navigation ul li{
+        float:right;
+        margin-left:2px;
+
+
+
+      }
+      #navigation ul li a{
+        color:white;
+        display:block;
+        text-decoration:none;
+        padding:13px 43px;
+        background: #302f2f;
+        border-radius:5px;
+        border:2px solid white;
+        font-size:17px;
+        font-family:courier;
+
+
+
+      }
+      #navigation ul li:hover a{
+        background:black;
+        color:white;
+        display:block;
+
+
+      }
+      #content{
+        width:100%;
+        height:700px;
+        background:red;
+        position:relative;
+        margin-top:5px;
+	  box-shadow:0 5px 40px 7px black;
+	  overflow:hidden;
+
+
+      }
+	#content img{
+		transition:all 15s;
+	}
+	#content img:hover{
+		transform:scale(1.2,1.2);
+	}
+      #content #content1{
+        position:relative;
+        bottom:100px;
+        width:400px;
+        left:400px;
+        text-align:center;
+        margin-top:4px;
+      }
+      #content #content1 a{
+        padding:25px 30px;
+        background:#3f3e3c;
+        text-decoration:none;
+        color:white;
+        font-size:30px;
+        font-weight:bold;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        word-spacing:5px;
+        letter-spacing:2px;
+        border-radius:8px;
+        display:block;
+
+      }
+      #content #content1 a:hover{
+        background:black;
+
+      }
+      #content img{
+        background-position:fixed;
+        background-position:center;
+        box-shadow:0 6px 27px 5px black;
+        width:100%;
+        height:100%;
+      }
+      #batch{
+        width:96.8%;
+        height:560px;
+        background:#efeded;
+        padding:20px 20px;
+        box-shadow:0 1px 10px 5px white;
+
+      }
+      #batch #batch1{
+        width:70%;
+        height:560px;
+        background:white;
+        background:none;
+         
+        background-position:center;
+        animation-name:jsr;
+        animation-duration:50s;
+        animation-timing-function:linear;
+        animation-iteration-count:infinite;
+      }
+      @keyframes jsr{
+        0%{
+          background:url('rose.jpg');
+          background-size:100% 100%;
+        }
+        10%{
+          background:url('jasmine4.jpg');
+          background-size:100% 100%;
+        }
+        30%{
+          background:url('dandelion3.jpg');
+          background-size:100% 100%;
+        }
+        40%{
+          background:url('daisy4.jpg');
+          background-size:100% 100%;
+        }
+        50%{
+          background:url('dahlia6.jpg');
+          background-size:100% 100%;
+        }
+        60%{
+          background:url('bluebell7.jpg');
+          background-size:100% 100%;
+        }
+        70%{
+          background:url('hibiscus5.jpg');
+          background-size:100% 100%;
+        }
+        80%{
+          background:url('lotus5.jpg');
+          background-size:100% 100%;
+        }
+        90%{
+          background:url('marigold4.jpg');
+          background-size:100% 100%;
+        }
+
+        100%{
+          background:url('orchid8.jpg');
+          background-size:100% 100%;
+        }
+      }
+      #batch #batch2{
+        width:28%;
+        height:560px;
+        background:white;
+        float:right;
+        margin-top:-560px;
+      }
+      #batch #batch2 .input_type{
+        width:99%;
+        height:40px;
+        margin-top:5px;
+        padding:0px 10;
+        font-size:15px;
+        border-radius:5px;
+
+      }
+      #batch #batch2 .input{
+        width:25px;
+        height:25px;
+        margin-left:20px;
+        margin-top:-20px;
+        border-radius:5px;
+      }
+      #batch #batch2 p{
+        font-size:20px;
+        font-weight:bold;
+        padding:0px 4px;
+      }
+      #batch #submit{
+        padding:10px 20px;
+        margin:4px 30%;
+        border-radius:4px;
+        color:white;
+        background:orange;
+        font-size:15px;
+      }
+	#batch11{
+		width:100%;
+		height:500px;
+
+
+
+	}
+   
+      #batch11 #batch111{
+        width:25%;
+        height:400px;
+        border-radius:10px;
+        background:white;
+        margin-left:-50px;
+        margin-top:50px;
+        margin-bottom:50px;
+        border:2px solid green;
+	 	float:left;
+        padding:0 50px ;
+
+
+      }
+      #batch11 #batch111 ul{
+        height:400px;
+      }
+      #batch11 #batch111 marquee ul li{
+        line-height:30px;
+      }
+      #batch11 #batch111 ul li a{
+        color:black;
+        font-weight:bold;
+        text-decoration:none;
+      }
+      #batch11 #batch111 ul li a:hover{
+
+        text-decoration:underline solid blue;
+      }
+	#batch11 #batch112{
+		width:70%;
+		height:500px;
+    	border-radius:10px;
+		background:white;
+		border:2px solid blue;
+		float:left;
+	}
+	 
+    .batch113{
+    width:25%;
+    height:350px;
+    border:2px solid skyblue;
+    margin-top:100px;
+     background:radial-gradient(yellow,blue,orange,purple);
+    padding:17px 10px;
+    box-shadow:0 2px 30px 1px black;
+    float:left;
+    margin-left:60px;
+    transform:rotate(40deg);
+     
+     
+  }
+  .batch113 a{
+    text-decoration:none;
+    background:#ffae00;
+    display:block;
+      transform:rotate(-40deg);
+     padding-left:20px;
+    line-height:40px;
+    border-radius:10px 0 10px 0;
+    box-shadow:5px 3px 10px 3px black;
+    color:white;
+    font-family:courier;
+    font-size:20px;
+    margin-top:110px;
+    margin-left:10px;
+  }
+  .batch113 a:hover{
+    background:#262525;
+  }
+ .batch113 .batch114{
+	margin-top:-300px;
+}
+      #footer{
+                    width:100%;
+                    height:480px;
+                    background:black;
+                    margin-top:2050px;
+                    padding-top:40px;
+			  z-index:1500;
+                }
+      #footer table{
+        margin:20px auto;
+      }
+                #footer table tr td{
+                    color:white;
+                    width:400px;
+                    padding:5px 0px;
+
+
+
+                }
+      #footer table tr td a{
+        color:#fcc82d;
+        text-decoration:none;
+        font-family:cursive;
+	  font-size:20px;
+
+
+      }
+      #footer table tr td:hover{
+        transform:translate(2px,0);
+
+
+
+      }
+
+          hr{
+            margin-left:120px;
+          }
+          #footer h3{
+            width:400px;
+            height:40px;
+            margin-left:57%;
+            font-size:20px;
+            margin-top:-8px;
+            font-family:cursive;
+
+          }
+       #footer ul{
+        list-style:none;
+        margin-left:10%;
+        margin-top:-4px;
+        width:300px;
+
+       }
+       #footer ul li{
+        float:left;
+       }
+       #footer .footer1{
+        border-left:4px white double;
+        width:70px;
+        height:30px;
+        color:orange;
+        margin-left:10%;
+        padding:0 4px;
+        font-size:25px;
+        font-weight:bold;
+        font-family:'Times New Roman', Times, serif;
+
+       }
+       #footer .footer2{
+        border-left:4px white double;
+        width:70px;
+        height:52px;
+        color:orange;
+        margin-left:46.3%;
+        padding:0 4px;
+        margin-top:-130px;
+        font-size:25px;
+        font-weight:bold;
+        font-family:'Times New Roman', Times, serif;
+        float:left;
+       }
+       #footer .footer3{
+        border-left:4px white double;
+        width:70px;
+        height:32px;
+        color:orange;
+        margin-left:68.3%;
+        padding:0 4px;
+        margin-top:-130px;
+        font-size:25px;
+        font-weight:bold;
+        font-family:Times, serif;
+        float:left;
+       }
+       #footer p{
+        margin-left:11%;
+        color:white;
+        font-weight:lighter;
+        line-height:20px;
+       }
+      #footer a .img1{
+        margin-left:44%;
+        margin-top:-36px;
+        width:28px;
+        height:28px;
+        background:white;
+        border-radius:20px;
+
+      }
+  </style>
+  </head>
+  <body>
+    <div id="main">
+
+      <div id="header">
+        <div id="nav1">
+            <img src="logo1.png"/>
+        </div>
+        <div id="nav2">
+            <h1>Sbf</h1>
+
+            <input type="text" placeholder="Search you favourite flower" id="input_type" name=""/>
+            <input type="text" placeholder="select delivery location" id="input_type1" name=""/>
+            <div id="nav211">
+                <a href=""><img src="cart.png"/></a>
+                <a href=""><img src="picon.png"/></a>
+            </div>
+            <h2>flower world</h2>
+
+
+            <div class="nav21">
+
+              <a href="signup.html" target="_blank">SIGN UP</a>
+
+
+            </div>
+
+            <div class="nav21" style="margin-right:120px;">
+
+                <a href="sign1.html" target="_blank">&nbsp;  LOGIN </a>
+            </div>
+            <ul>
+
+                <li><img src="icons8dot.png" width="60px" height="60px"/>
+
+                        <ul>
+                            <li><a href=""><img src="wicon.png" width="60px" height="60px" /></a></li>
+                            <li><a href=""><img src="fb1icon.png" width="60px" height="60px"/></a></li>
+                            <li><a href=""><img src="ticon.png" width="60px" height="60px"/></a></li>
+                            <li><a href=""><img src="teicon.png" width="60px" height="60px"/></a></li>
+                            <li><a href=""><img src="instaicon.png" width="60px" height="60px"/></a></li>
+
+                        </ul>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="navigation">
+      <ul>
+          <li><a href="">CASHBACK</a></li>
+          <li><a href="">LOCATION</a></li>
+          <li><a href="">DISCOUNT</a></li>
+          <li><a href="">COUPAN</a></li>
+          <li><a href="account.html">ACCOUNT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="index.html">HOME</a></li>
+      </ul>
+  </div>
+  <div id="bg1">
+      <div id="content">
+              <img src="nature.jpg"/>
+              <div id="content1">
+                <a href="viewall.html">VIEW ALL</a>
+              </div>
+
+      </div>
+      <div id="batch">
+        <div id="batch1">
+           
+        </div>
+        <div id="batch2">
+          <img src="formimg.jpg" width="100%" height=290px"/>
+          <form>
+          <input type="text" placeholder="Name..." class="input_type" style="margin-top:10px;"/>
+          <input type="text" placeholder="Email..." formnovalidate="formnovalidata" class="input_type"/>
+          <input type="password" placeholder="password..." class="input_type"/><br>
+          <p style="width:60px; background:hsl(60, 54%, 61%);"> Rating...</p><input type="checkbox" class="input" style="margin-left:70px;"/>
+           <input type="checkbox" class="input"/>
+           <input type="checkbox" class="input"/>
+           <input type="checkbox" class="input"/>
+           <input type="checkbox"class="input"/>
+           <p>How is your performanance in buying product</p>
+           <input type="submit" value="Submit" id="submit"/>
+           </form>
+        </div>
+      </div>
+        <div id="batch11">
+          <div id="batch112">
+            <video width="100%" height="100%" autoplay muted controls loop>
+              <source src="video.mp4" type="video/mp4"/>
+            </video>
+          </div>
+           <div id="batch111">
+            <h1>Updates links</h1>
+             
+               <ul type="square">
+                 <li><a href="">Latest Frame available</a></li>
+                   <li><a href="">New product Launch</a></li>
+                  <li><a href="">Buy the best Frame </a></li>
+                  <li><a href="">Best material  of best product with all facility</a></li>
+                  <li><a href="">Latest Frame available</a></li>
+                  <li><a href="">Latest Frame available</a></li>
+                  <li><a href="">New product Launch</a></li>
+                  <li><a href="">Buy the best Frame </a></li>
+                   <li><a href="">Latest Frame available</a></li>
+                  <li><a href="">Latest Frame available</a></li>
+               </ul>
+             </marquee>
+		       </div>
+
+        </div>
+         
+        <div class="batch113"> 
+	  <img src="lily1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="visit.html">Best Lily Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="tulip1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="tulip.html">Good Smell Tulip Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="orchid1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="orchid.html">Orchid Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="marigold1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="mariglod.html">The latest design of Marigold flower frame</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="lotus1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="lotus.html">Growing in water (Lotus) Frame design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="jasmine1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="jasmine.html">Glowing Face glowing flower jasmine frame design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	   <img src="bluebell1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="bluebell.html">Multi Brand Frame design of Bluebell flower</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="daisy1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="daisy.html">Best Daisy Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	  <img src="daffodil1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="daffodil.html">Daffodil Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	   <img src="dahlia1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="dahlia1.html">Dahlia Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	   <img src="dahlia1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="dahlia1.html">Best Lily Flower Frame Design</a>
+	  </div>
+	  </div>
+	  <div class="batch113">
+	   <img src="dahlia1.jpg" width="100%" height="100%"/ >
+	  <div class="batch114">
+        <a href="dahlia1.html">Best Lily Flower Frame Design</a>
+	  </div>
+	  </div>
+     
+
+
+        </div>
+
+
+    <div id="footer">
+      <div class="footer1">
+          Loction:
+      </div><br>
+      <p><b>Sbf flower world</b><br>Babugoan,Near Korrah chowk,<br>
+      Main road Hazaribagh<br><br>Email:developerrahul977@gmail.com
+    PIN:825301</p>
+      <div class="footer2">
+        Menu Item
+      </div>
+      <div class="footer3">
+        Important
+      </div>
+      <table width="80%" height="100px" align="center">
+           <tr>
+            <td rowspan="6" >
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58320.839177763955!2d85.3302735158154!3d23.993924939680554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f49c114f26548f%3A0xbd45e868bb61961f!2sHazaribagh%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1663357586293!5m2!1sen!2sin" width="400px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+            <td align=><a href="" style="margin-left:150px;" ><i class=""></i>Home</a></td>
+            <td><a href="" style="margin-left:100px;">Query</a></td>
+           </tr>
+
+           <tr>
+
+            <td><a href="" style="margin-left:150px;">About</a></td>
+            <td><a href="" style="margin-left:100px;">Refund</a></td>
+           </tr>
+
+           <tr>
+
+            <td><a href="" style="margin-left:150px;">Coupan</a></td>
+            <td><a href="" style="margin-left:100px;">Customer Service</a></td>
+           </tr>
+
+           <tr>
+
+            <td><a href="" style="margin-left:150px;">Discount</a></td>
+            <td><a href="" style="margin-left:100px;">Brand</a></td>
+           </tr>
+
+           <tr>
+
+            <td><a href="" style="margin-left:150px;">Account</a></td>
+            <td><a href="" style="margin-left:100px;">Contact Us</a></td>
+           </tr>
+
+           <tr>
+
+            <td><a href="" style="margin-left:150px;">Location</a></td>
+            <td><a href="" style="margin-left:150px;"></a></td>
+           </tr>
+      </table>
+      <hr width="80%" align="center" size="2" color="orange">
+      <br>
+
+
+        <ul>
+          <li><a href=""><img src="wicon.png" width="35px" height="35px" /></a></li>
+          <li><a href=""><img src="fb1icon.png" width="35px" height="35px"/></a></li>
+          <li><a href=""><img src="ticon.png" width="35px" height="35px"/></a></li>
+          <li><a href=""><img src="teicon.png" width="35px" height="35px"/></a></li>
+          <li><a href=""><img src="instaicon.png" width="35px" height="35px"/></a></li>
+
+      </ul>
+
+
+
+
+
+      <h3 align="right" style="color:yellow;">   Designed By Rahul Roy</h3>
+    <a href=""><img src="p1icon.png" class="img1"/></a>
+
+   </div>
+    </div>
+    </div>
+  </body>
+ </html>
